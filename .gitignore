@@ -3,3 +3,4 @@ obj/
 **/local.settings.json
 *.user
 *.vs
+/appsettings.development.json

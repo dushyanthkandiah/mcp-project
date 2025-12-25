@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "MCPApi": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:52131;http://localhost:52132"
+    }
+  }
+}
