@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "local-api": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\dushyanthk\\Downloads\\QuickShare\\MCPApi\\Script\\mcp_local_api.js"
+      ],
+      "env": {
+        "API_BASE_URL": "http://localhost:5000/api"
+      }
+    }
+  }
+}
