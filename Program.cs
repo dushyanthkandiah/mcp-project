@@ -16,7 +16,7 @@ builder.Services.AddCors(options =>
         policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 });
 
- 
+
 // runtime toggle: set UseFileStore=true in configuration to use file-backed NoSQL store
 var useFileStore = builder.Configuration.GetValue<bool>("UseFileStore", false);
 
@@ -46,7 +46,12 @@ app.UseAuthorization();
 using (var scope = app.Services.CreateScope())
 {
     var store = scope.ServiceProvider.GetRequiredService<JsonFileStore>();
-    // seed products
+    // seed  
+    var users = store.GetUsers().GetAwaiter().GetResult();
+    if (!users.Any())
+    {
+        store.AddUser(new User { UserName = "Dushyanth", Email = "dushyanthkandiah@gmail.com" }).GetAwaiter().GetResult();
+    }
     var products = store.GetProducts().GetAwaiter().GetResult();
     if (!products.Any())
     {

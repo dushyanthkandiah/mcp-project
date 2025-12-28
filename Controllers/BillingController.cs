@@ -24,13 +24,13 @@ public class BillingController : ControllerBase
     public async Task<IActionResult> Create(Billing billing)
     {
         var b = await _store.AddBilling(billing);
-        return b is null ? BadRequest("Invalid ProductId or CustomerId") : CreatedAtAction(nameof(Get), new { id = b.Id }, b);
+        return b is null ? BadRequest("Invalid ProductId, CustomerId, UserId or CreatedBy") : CreatedAtAction(nameof(Get), new { id = b.Id }, b);
     }
 
     [HttpDelete("{id:int}")]
     public async Task<IActionResult> Delete(int id)
     {
         var ok = await _store.DeleteBilling(id);
-        return ok ? NoContent() : NotFound();
+        return Ok(ok);
     }
 }

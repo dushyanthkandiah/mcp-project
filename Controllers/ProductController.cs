@@ -24,20 +24,20 @@ public class ProductController : ControllerBase
     public async Task<IActionResult> Create(Product product)
     {
         var p = await _store.AddProduct(product);
-        return CreatedAtAction(nameof(Get), new { id = p.Id }, p);
+        return p is null ? BadRequest("Invalid CreatedBy user") : CreatedAtAction(nameof(Get), new { id = p.Id }, p);
     }
 
     [HttpPut("{id:int}")]
     public async Task<IActionResult> Update(int id, Product input)
     {
         var ok = await _store.UpdateProduct(id, input);
-        return ok ? NoContent() : NotFound();
+        return Ok(ok);
     }
 
     [HttpDelete("{id:int}")]
     public async Task<IActionResult> Delete(int id)
     {
         var ok = await _store.DeleteProduct(id);
-        return ok ? NoContent() : NotFound();
+        return Ok(ok);
     }
 }
