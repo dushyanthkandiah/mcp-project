@@ -126,6 +126,13 @@
       "Email": "dushyanthkandiah@gmail.com",
       "CreatedBy": 0,
       "CreatedByUser": null
+    },
+    {
+      "Id": 2,
+      "UserName": "Chathura",
+      "Email": "chathura@gmail.com",
+      "CreatedBy": 1,
+      "CreatedByUser": null
     }
   ],
   "Billings": [
@@ -199,52 +206,6 @@
       "CreatedByUser": null
     },
     {
-      "Id": 8,
-      "ProductId": 5,
-      "CustomerId": 3,
-      "CreatedBy": 0,
-      "Total": 70,
-      "Product": {
-        "Id": 5,
-        "Name": "Banana",
-        "Price": 0.3,
-        "CreatedBy": 0,
-        "CreatedByUser": null
-      },
-      "Customer": {
-        "Id": 3,
-        "Name": "Rakshana",
-        "Email": "rakshana@gmail.com",
-        "Age": 0,
-        "CreatedBy": 0,
-        "CreatedByUser": null
-      },
-      "CreatedByUser": null
-    },
-    {
-      "Id": 9,
-      "ProductId": 6,
-      "CustomerId": 2,
-      "CreatedBy": 0,
-      "Total": 299,
-      "Product": {
-        "Id": 6,
-        "Name": "Dragon Fruit",
-        "Price": 12.5,
-        "CreatedBy": 0,
-        "CreatedByUser": null
-      },
-      "Customer": {
-        "Id": 2,
-        "Name": "Bob",
-        "Email": "bob@example.com",
-        "Age": 0,
-        "CreatedBy": 0,
-        "CreatedByUser": null
-      },
-      "CreatedByUser": null
-    },
-    {
       "Id": 10,
       "ProductId": 8,
       "CustomerId": 2,
@@ -272,10 +233,68 @@
         "CreatedBy": 0,
         "CreatedByUser": null
       }
+    },
+    {
+      "Id": 11,
+      "ProductId": 6,
+      "CustomerId": 2,
+      "CreatedBy": 1,
+      "Total": 299,
+      "Product": {
+        "Id": 6,
+        "Name": "Dragon Fruit",
+        "Price": 12.5,
+        "CreatedBy": 0,
+        "CreatedByUser": null
+      },
+      "Customer": {
+        "Id": 2,
+        "Name": "Bob",
+        "Email": "bob@example.com",
+        "Age": 0,
+        "CreatedBy": 0,
+        "CreatedByUser": null
+      },
+      "CreatedByUser": {
+        "Id": 1,
+        "UserName": "Dushyanth",
+        "Email": "dushyanthkandiah@gmail.com",
+        "CreatedBy": 0,
+        "CreatedByUser": null
+      }
+    },
+    {
+      "Id": 12,
+      "ProductId": 8,
+      "CustomerId": 4,
+      "CreatedBy": 1,
+      "Total": 120,
+      "Product": {
+        "Id": 8,
+        "Name": "Apple",
+        "Price": 1.25,
+        "CreatedBy": 0,
+        "CreatedByUser": null
+      },
+      "Customer": {
+        "Id": 4,
+        "Name": "Nuwan",
+        "Email": "nuwanko@gmail.com",
+        "Age": 0,
+        "CreatedBy": 0,
+        "CreatedByUser": null
+      },
+      "CreatedByUser": {
+        "Id": 1,
+        "UserName": "Dushyanth",
+        "Email": "dushyanthkandiah@gmail.com",
+        "CreatedBy": 0,
+        "CreatedByUser": null
+      }
     }
   ],
   "NextProductId": 13,
   "NextCustomerId": 5,
-  "NextUserId": 2,
-  "NextBillingId": 11
+  "NextUserId": 3,
+  "NextBillingId": 13
 }
