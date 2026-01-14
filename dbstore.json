@@ -4,85 +4,157 @@
       "Id": 1,
       "Name": "Jordan",
       "Price": 4,
-      "CreatedBy": 0,
-      "CreatedByUser": null
+      "CreatedBy": 1,
+      "CreatedByUser": {
+        "Id": 1,
+        "UserName": "Dushyanth",
+        "Email": "dushyanthkandiah@gmail.com",
+        "CreatedBy": 0,
+        "CreatedByUser": null
+      }
     },
     {
       "Id": 2,
       "Name": "Pineapple",
       "Price": 10,
-      "CreatedBy": 0,
-      "CreatedByUser": null
+      "CreatedBy": 2,
+      "CreatedByUser": {
+        "Id": 2,
+        "UserName": "Kevin Anderson",
+        "Email": "kevinandersen27@gmail.com",
+        "CreatedBy": 1,
+        "CreatedByUser": null
+      }
     },
     {
       "Id": 3,
       "Name": "Orange",
       "Price": 2.5,
-      "CreatedBy": 0,
-      "CreatedByUser": null
+      "CreatedBy": 1,
+      "CreatedByUser": {
+        "Id": 1,
+        "UserName": "Dushyanth",
+        "Email": "dushyanthkandiah@gmail.com",
+        "CreatedBy": 0,
+        "CreatedByUser": null
+      }
     },
     {
       "Id": 4,
       "Name": "Mango",
       "Price": 10,
-      "CreatedBy": 0,
-      "CreatedByUser": null
+      "CreatedBy": 2,
+      "CreatedByUser": {
+        "Id": 2,
+        "UserName": "Kevin Anderson",
+        "Email": "kevinandersen27@gmail.com",
+        "CreatedBy": 1,
+        "CreatedByUser": null
+      }
     },
     {
       "Id": 5,
       "Name": "Banana",
       "Price": 0.3,
-      "CreatedBy": 0,
-      "CreatedByUser": null
+      "CreatedBy": 1,
+      "CreatedByUser": {
+        "Id": 1,
+        "UserName": "Dushyanth",
+        "Email": "dushyanthkandiah@gmail.com",
+        "CreatedBy": 0,
+        "CreatedByUser": null
+      }
     },
     {
       "Id": 6,
       "Name": "Dragon Fruit",
       "Price": 12.5,
-      "CreatedBy": 0,
-      "CreatedByUser": null
+      "CreatedBy": 2,
+      "CreatedByUser": {
+        "Id": 2,
+        "UserName": "Kevin Anderson",
+        "Email": "kevinandersen27@gmail.com",
+        "CreatedBy": 1,
+        "CreatedByUser": null
+      }
     },
     {
       "Id": 7,
       "Name": "Durian",
       "Price": 14,
-      "CreatedBy": 0,
-      "CreatedByUser": null
+      "CreatedBy": 1,
+      "CreatedByUser": {
+        "Id": 1,
+        "UserName": "Dushyanth",
+        "Email": "dushyanthkandiah@gmail.com",
+        "CreatedBy": 0,
+        "CreatedByUser": null
+      }
     },
     {
       "Id": 8,
       "Name": "Apple",
       "Price": 1.25,
-      "CreatedBy": 0,
-      "CreatedByUser": null
+      "CreatedBy": 2,
+      "CreatedByUser": {
+        "Id": 2,
+        "UserName": "Kevin Anderson",
+        "Email": "kevinandersen27@gmail.com",
+        "CreatedBy": 1,
+        "CreatedByUser": null
+      }
     },
     {
       "Id": 9,
       "Name": "penin",
       "Price": 300,
-      "CreatedBy": 0,
-      "CreatedByUser": null
+      "CreatedBy": 1,
+      "CreatedByUser": {
+        "Id": 1,
+        "UserName": "Dushyanth",
+        "Email": "dushyanthkandiah@gmail.com",
+        "CreatedBy": 0,
+        "CreatedByUser": null
+      }
     },
     {
       "Id": 10,
       "Name": "measy",
       "Price": 40,
-      "CreatedBy": 0,
-      "CreatedByUser": null
+      "CreatedBy": 2,
+      "CreatedByUser": {
+        "Id": 2,
+        "UserName": "Kevin Anderson",
+        "Email": "kevinandersen27@gmail.com",
+        "CreatedBy": 1,
+        "CreatedByUser": null
+      }
     },
     {
       "Id": 11,
       "Name": "measy",
       "Price": 40,
-      "CreatedBy": 0,
-      "CreatedByUser": null
+      "CreatedBy": 1,
+      "CreatedByUser": {
+        "Id": 1,
+        "UserName": "Dushyanth",
+        "Email": "dushyanthkandiah@gmail.com",
+        "CreatedBy": 0,
+        "CreatedByUser": null
+      }
     },
     {
       "Id": 12,
       "Name": "measy",
       "Price": 40,
-      "CreatedBy": 0,
-      "CreatedByUser": null
+      "CreatedBy": 2,
+      "CreatedByUser": {
+        "Id": 2,
+        "UserName": "Kevin Anderson",
+        "Email": "kevinandersen27@gmail.com",
+        "CreatedBy": 1,
+        "CreatedByUser": null
+      }
     }
   ],
   "Customers": [
@@ -91,32 +163,56 @@
       "Name": "Alice",
       "Email": "alice@example.com",
       "Age": 0,
-      "CreatedBy": 0,
-      "CreatedByUser": null
+      "CreatedBy": 1,
+      "CreatedByUser": {
+        "Id": 1,
+        "UserName": "Dushyanth",
+        "Email": "dushyanthkandiah@gmail.com",
+        "CreatedBy": 0,
+        "CreatedByUser": null
+      }
     },
     {
       "Id": 2,
       "Name": "Bob",
       "Email": "bob@example.com",
       "Age": 0,
-      "CreatedBy": 0,
-      "CreatedByUser": null
+      "CreatedBy": 2,
+      "CreatedByUser": {
+        "Id": 2,
+        "UserName": "Kevin Anderson",
+        "Email": "kevinandersen27@gmail.com",
+        "CreatedBy": 1,
+        "CreatedByUser": null
+      }
     },
     {
       "Id": 3,
       "Name": "Rakshana",
       "Email": "rakshana@gmail.com",
       "Age": 0,
-      "CreatedBy": 0,
-      "CreatedByUser": null
+      "CreatedBy": 1,
+      "CreatedByUser": {
+        "Id": 1,
+        "UserName": "Dushyanth",
+        "Email": "dushyanthkandiah@gmail.com",
+        "CreatedBy": 0,
+        "CreatedByUser": null
+      }
     },
     {
       "Id": 4,
       "Name": "Nuwan",
       "Email": "nuwanko@gmail.com",
       "Age": 0,
-      "CreatedBy": 0,
-      "CreatedByUser": null
+      "CreatedBy": 2,
+      "CreatedByUser": {
+        "Id": 2,
+        "UserName": "Kevin Anderson",
+        "Email": "kevinandersen27@gmail.com",
+        "CreatedBy": 1,
+        "CreatedByUser": null
+      }
     }
   ],
   "Users": [
@@ -124,15 +220,21 @@
       "Id": 1,
       "UserName": "Dushyanth",
       "Email": "dushyanthkandiah@gmail.com",
-      "CreatedBy": 0,
+      "CreatedBy": 2,
       "CreatedByUser": null
     },
     {
       "Id": 2,
-      "UserName": "Chathura",
-      "Email": "chathura@gmail.com",
+      "UserName": "Kevin Anderson",
+      "Email": "kevinandersen27@gmail.com",
       "CreatedBy": 1,
-      "CreatedByUser": null
+      "CreatedByUser": {
+        "Id": 1,
+        "UserName": "Dushyanth",
+        "Email": "dushyanthkandiah@gmail.com",
+        "CreatedBy": 0,
+        "CreatedByUser": null
+      }
     }
   ],
   "Billings": [
@@ -140,7 +242,7 @@
       "Id": 1,
       "ProductId": 1,
       "CustomerId": 1,
-      "CreatedBy": 0,
+      "CreatedBy": 1,
       "Total": 0.5,
       "Product": {
         "Id": 1,
@@ -157,13 +259,19 @@
         "CreatedBy": 0,
         "CreatedByUser": null
       },
-      "CreatedByUser": null
+      "CreatedByUser": {
+        "Id": 1,
+        "UserName": "Dushyanth",
+        "Email": "dushyanthkandiah@gmail.com",
+        "CreatedBy": 0,
+        "CreatedByUser": null
+      }
     },
     {
       "Id": 3,
       "ProductId": 3,
       "CustomerId": 2,
-      "CreatedBy": 0,
+      "CreatedBy": 2,
       "Total": 4,
       "Product": {
         "Id": 3,
@@ -180,13 +288,19 @@
         "CreatedBy": 0,
         "CreatedByUser": null
       },
-      "CreatedByUser": null
+      "CreatedByUser": {
+        "Id": 2,
+        "UserName": "Kevin Anderson",
+        "Email": "kevinandersen27@gmail.com",
+        "CreatedBy": 1,
+        "CreatedByUser": null
+      }
     },
     {
       "Id": 6,
       "ProductId": 4,
       "CustomerId": 4,
-      "CreatedBy": 0,
+      "CreatedBy": 1,
       "Total": 2000,
       "Product": {
         "Id": 4,
@@ -203,7 +317,13 @@
         "CreatedBy": 0,
         "CreatedByUser": null
       },
-      "CreatedByUser": null
+      "CreatedByUser": {
+        "Id": 1,
+        "UserName": "Dushyanth",
+        "Email": "dushyanthkandiah@gmail.com",
+        "CreatedBy": 0,
+        "CreatedByUser": null
+      }
     },
     {
       "Id": 10,

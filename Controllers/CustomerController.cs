@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace MCPApi.Controllers;
 
-// [Authorize]
+[Authorize]
 [ApiController]
 [Route("api/[controller]")]
 public class CustomerController : ControllerBase
