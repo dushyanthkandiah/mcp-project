@@ -411,10 +411,57 @@
         "CreatedBy": 0,
         "CreatedByUser": null
       }
+    },
+    {
+      "Id": 13,
+      "ProductId": 1,
+      "CustomerId": 1,
+      "CreatedBy": 2,
+      "Total": 200,
+      "Product": {
+        "Id": 1,
+        "Name": "Jordan",
+        "Price": 4,
+        "CreatedBy": 1,
+        "CreatedByUser": {
+          "Id": 1,
+          "UserName": "Dushyanth",
+          "Email": "dushyanthkandiah@gmail.com",
+          "CreatedBy": 0,
+          "CreatedByUser": null
+        }
+      },
+      "Customer": {
+        "Id": 1,
+        "Name": "Alice",
+        "Email": "alice@example.com",
+        "Age": 0,
+        "CreatedBy": 1,
+        "CreatedByUser": {
+          "Id": 1,
+          "UserName": "Dushyanth",
+          "Email": "dushyanthkandiah@gmail.com",
+          "CreatedBy": 0,
+          "CreatedByUser": null
+        }
+      },
+      "CreatedByUser": {
+        "Id": 2,
+        "UserName": "Kevin Anderson",
+        "Email": "kevinandersen27@gmail.com",
+        "CreatedBy": 1,
+        "CreatedByUser": {
+          "Id": 1,
+          "UserName": "Dushyanth",
+          "Email": "dushyanthkandiah@gmail.com",
+          "CreatedBy": 0,
+          "CreatedByUser": null
+        }
+      }
     }
   ],
   "NextProductId": 13,
   "NextCustomerId": 5,
   "NextUserId": 3,
-  "NextBillingId": 13
+  "NextBillingId": 14
 }
